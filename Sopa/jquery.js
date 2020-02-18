@@ -1,21 +1,3 @@
-function Respuesta(pregunta) {
-    this.pregunta = pregunta;
-}
-
-// LISTA DE SUCURSALES O EMISORES
-var palabrasClaves = [
-    new Respuesta("Reduce"),
-    new Respuesta("Recicla"),
-    new Respuesta("Reutiliza"),
-    new Respuesta("Separar"),
-    new Respuesta("Cerrar"),
-    new Respuesta("Evitar"),
-    new Respuesta("Plantar"),
-    new Respuesta("Llevar"),
-    new Respuesta("Apagar"),
-    new Respuesta("Muevete"),
-]
-
 $(document).ready(function () {
 
     //REDUCE
